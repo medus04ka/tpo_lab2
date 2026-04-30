@@ -38,7 +38,6 @@ object Csv {
         x: List<Double>,
         firstModuleName: String,
         firstValues: List<Double?>,
-        secondModuleName: String,
         secondValues: List<Double?>
     ) {
         val file = File(path)
@@ -50,7 +49,7 @@ object Csv {
         var writer: BufferedWriter? = null
         try {
             writer = BufferedWriter(FileWriter(file))
-            writer.write("X,Результаты модуля ($firstModuleName),Результаты модуля ($secondModuleName)")
+            writer.write("X,Результаты модуля ($firstModuleName)")
             writer.newLine()
 
             var i = 0

@@ -38,7 +38,6 @@ class CsvTest {
             x = listOf(1.0, 2.0),
             firstModuleName = "Real",
             firstValues = listOf(10.0, 20.0),
-            secondModuleName = "Iter",
             secondValues = listOf(11.0, 21.0)
         )
 
@@ -93,7 +92,6 @@ class CsvTest {
                 x = listOf(1.0, 2.0),
                 firstModuleName = "A",
                 firstValues = listOf(10.0),
-                secondModuleName = "B",
                 secondValues = listOf(20.0)
             )
         }
